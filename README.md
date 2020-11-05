@@ -10,7 +10,7 @@
 ### Code
 #### TEEEEST
 ### Lessons(s) Learned
-#
-* You can give a functions values to work with (called an "argument"). You use `return` to spit back out the answer or whatever, not a `print`.
+
+#### * You can give a functions values to work with (called an "argument"). You use `return` to spit back out the answer or whatever, not a `print`.
 * test2
 * test3
