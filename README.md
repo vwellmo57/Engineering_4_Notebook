@@ -13,7 +13,7 @@ I'm going to talk about the two sections that gave me the most trouble. The firs
 ```python 
 print("Sum:\t\t" , doMath(a,b,1))
 ```
-
+There a few parts to this. First, the print, we are really just telling python to print "Sum" and the return from doMath. The second big part is giving doMath it's arguments, in this case that is `a,b,1` a and b are variable that are givin their value by a user input earlier in the code. 1 is telling doMath what operation to do.  
 ### Lessons(s) Learned
 
 - You can give a functions values to work with (called an "argument"). You use `return` to spit back out the answer or whatever, not a `print`.
