@@ -12,9 +12,5 @@
 ### Lessons(s) Learned
 
 - You can give a functions values to work with (called an "argument"). You use `return` to spit back out the answer or whatever, not a `print`.
-* test2
-* test3
- Markup : - Bullet list
-              - Nested bullet
-                  - Sub-nested bullet etc
-          - Bullet list item 2 
+- Taking inputs is as easy as `x = input("Message")
+- Rounding is very easy, just use `round(x,y)`, x being the number and y being the places to round to. 
