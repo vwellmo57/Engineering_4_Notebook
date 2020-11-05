@@ -31,6 +31,7 @@ Next is how I chose what operation to do.
     elif c==5:
         return (int(a) % int(b))
  ```
+C is the argument from the earlier print, it has a value of 1-5 at all times. Because of this we can use this simple solution, every value of c has an if/if else statment. The program finds the correct operation, completes it, and then returns it to be printed. 
 ### Lessons(s) Learned
 
 - You can give a functions values to work with (called an "argument"). You use `return` to spit back out the answer or whatever, not a `print`.
