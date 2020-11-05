@@ -6,10 +6,10 @@
 ### This assignment was basic one I got the logic to work. I used a simple random function and an if stament to kill the program. I would recommend using an online compiler to write the code as it takes lots of time to do it on the pi. One I wrote it all I just copied it over. I've been doing lots of Java is CSA so the switch to Python was nice, its all much easier in my opinion, or at least simpler. 
 ## Calculator
 ### Description
-## In this assignment we used functions to do an array of operations on two use inputed numbers. I'd never used functions in Python before so this was a fun challange. 
+#### In this assignment we used functions to do an array of operations on two use inputed numbers. I'd never used functions in Python before so this was a fun challange. 
 ### Code
-## TEEEEST
+#### TEEEEST
 ### Lessons(s) Learned
-## * test
-   * test2
-   * test3
+####   * test
+####   * test2
+####   * test3
