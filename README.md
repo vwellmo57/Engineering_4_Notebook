@@ -8,7 +8,8 @@
 ### Description
 #### In this assignment we used functions to do an array of operations on two use inputed numbers. I'd never used functions in Python before so this was a fun challange. 
 ### Code
-#### TEEEEST
+#### I'm going to talk about the two sections that gave me the most trouble. The first is taking the input from a function. ```python print("Sum:\t\t" , doMath(a,b,1)) ```
+
 ### Lessons(s) Learned
 
 - You can give a functions values to work with (called an "argument"). You use `return` to spit back out the answer or whatever, not a `print`.
