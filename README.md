@@ -9,6 +9,7 @@ This assignment was basic one I got the logic to work. I used a simple random fu
 In this assignment we used functions to do an array of operations on two use inputed numbers. I'd never used functions in Python before so this was a fun challange. 
 ### Code
 I'm going to talk about the two sections that gave me the most trouble. The first is taking the input from a function. 
+`calculator.py`
 ```python 
 print("Sum:\t\t" , doMath(a,b,1))
 ```
