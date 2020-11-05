@@ -16,7 +16,9 @@ print("Sum:\t\t" , doMath(a,b,1))
 There a few parts to this. First, the print, we are really just telling python to print "Sum" and the return from doMath. The second big part is giving doMath its arguments, in this case, that is `a,b,1` a, and b are variable that are given their value by a user input earlier in the code. 1 is telling doMath what operation to do.  
 
 Next is how I chose what operation to do.
+
 `calculator.py`
+
 ```python
   if c==1:       #c tells the function what operation to do
         return(int(a) + int(b))   #where the math happens
