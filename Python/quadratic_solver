@@ -1,0 +1,21 @@
+temp = 0
+num = [1,1,1]
+pos = True
+
+
+def solve(num):
+    #return(num)
+    #b^2-4ac
+    temp = num[0]
+    return(num[1])
+
+
+
+
+print("Quadratic Solver")
+print("Enter the coefficients for ax^2 + bx + c = 0")
+num[0] = input("Enter A: ") 
+num[1] = input("Enter B: ") 
+num[2] = input("Enter C: ")
+
+print(solve(num))
