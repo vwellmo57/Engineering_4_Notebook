@@ -1,21 +1,25 @@
+import array
 temp = 0
-num = [1,1,1]
-pos = True
-
+discriminant = 0
+num = array.array("i", [1, 1, 1])
+roots = array.array("i", [1, 1])
 
 def solve(num):
-    #return(num)
-    #b^2-4ac
-    temp = num[0]
-    return(num[1])
-
-
-
+    a=num[0]
+    b=num[1]
+    c=num[2]
+    temp = b*b
+    temp = (temp)-(4*(num[0])*(num[2]))
+    discriminant = temp
+    if (discriminant < 0):
+      return("There are no real roots")
+    else:
+        return(roots[1])
 
 print("Quadratic Solver")
 print("Enter the coefficients for ax^2 + bx + c = 0")
-num[0] = input("Enter A: ") 
-num[1] = input("Enter B: ") 
-num[2] = input("Enter C: ")
+num[0] = int(input("Enter A: "))
+num[1] = int(input("Enter B: "))
+num[2] = int(input("Enter C: "))
 
 print(solve(num))
