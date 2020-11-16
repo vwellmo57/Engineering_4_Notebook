@@ -1,5 +1,4 @@
 import array
-temp = 0
 discriminant = 0
 num = array.array("i", [1, 1, 1])
 roots = array.array("i", [1, 1])
@@ -8,9 +7,8 @@ def solve(num):
     a=num[0]
     b=num[1]
     c=num[2]
-    temp = b*b
-    temp = (temp)-(4*(num[0])*(num[2]))
-    discriminant = temp
+    discriminant = b*b
+    discriminant = (discriminant)-(4*(num[0])*(num[2]))
     if (discriminant < 0):
       return("There are no real roots")
     else:
