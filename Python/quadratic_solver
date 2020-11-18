@@ -1,23 +1,41 @@
+#Quadratic Solver
+#Written by Vann W.
+
 import array
+import math
+
 discriminant = 0
-num = array.array("i", [1, 1, 1])
-roots = array.array("i", [1, 1])
+num = array.array("f", [1, 1, 1])
+roots = array.array("f", [1.0, 1.0])
+temp = 0
 
 def solve(num):
-    a=num[0]
-    b=num[1]
-    c=num[2]
-    discriminant = b*b
+    discriminant = num[1] ** 2
     discriminant = (discriminant)-(4*(num[0])*(num[2]))
     if (discriminant < 0):
       return("There are no real roots")
     else:
-        return(roots[1])
+        for i in range(1, 3, 1):
+            if (i==1):
+                temp = math.sqrt(discriminant)
+                temp = (-1*num[1]) - temp
+                temp = temp / (2*num[0])  
+                round(temp,2)
+                print(temp)
+                round(roots[0],2)
+            if (i==2):
+                temp = math.sqrt(discriminant)
+                temp = (-1*num[1]) + temp
+                temp = temp / (2*num[0])
+                temp = round(temp,2) 
+                roots[1] = temp
+        
+        return(roots[0])
 
 print("Quadratic Solver")
 print("Enter the coefficients for ax^2 + bx + c = 0")
-num[0] = int(input("Enter A: "))
-num[1] = int(input("Enter B: "))
-num[2] = int(input("Enter C: "))
+num[0] = float(input("Enter A: "))
+num[1] = float(input("Enter B: "))
+num[2] = float(input("Enter C: "))
 
 print(solve(num))
