@@ -1,3 +1,6 @@
+#Calculator
+#Written by Vann W.
+
 def doMath(a,b,c): #defining the function and it's arguments
     if c==1:       #c tells the function what operation to do
         return(int(a) + int(b))   #where the math happens
