@@ -59,11 +59,11 @@ if (discriminant < 0):   #if the discriminant is <0 it returns no roots
         return(roots)       #returns the roots as an array
 ```
 
-This is where the (inefficient) magic happens. Outside of this all that happens is taking userinput and printing the result of this section. What I'm doing is just solving the quadratic formula while giving it's value to one of the two roots. After getting both roots it rounds them and then returns the array to be printed. 
+This is where the (inefficient) magic happens. Outside of this all that happens is taking user-input and printing the result of this section. What I'm doing is just solving the quadratic formula while giving its value to one of the two roots. After getting both roots it rounds them and then returns the array to be printed. 
 
 ### Lessons(s) Learned
 
-- Arrays can be useful when dealing with lot's of similar varriables, the individual elements are easy to manipluate and they keep code simple. 
+- Arrays can be useful when dealing with lots of similar variables, the individual elements are easy to manipulate and they keep code simple. 
 - One main mistake I made was making the framework and then building the solver, had I done it the other way around my code would have been simpler and more efficient. 
-- You can return and array and then print it along with other things just like a normal variable.  
+- You can return an array and then print it along with other things just like a normal variable.  
 
