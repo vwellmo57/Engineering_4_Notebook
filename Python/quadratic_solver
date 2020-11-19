@@ -1,15 +1,10 @@
 #Quadratic Solver
 #Written by Vann W.
-
 import array
 import math
-
-discriminant = 0
 num = array.array("f", [1, 1, 1])
-roots = array.array("f", [1.0, 1.0])
-temp = 0
-
-def solve(num):
+roots = [1,2]
+def solve(num): 
     discriminant = num[1] ** 2
     discriminant = (discriminant)-(4*(num[0])*(num[2]))
     if (discriminant < 0):
@@ -21,7 +16,6 @@ def solve(num):
                 temp = (-1*num[1]) - temp
                 temp = temp / (2*num[0])  
                 round(temp,2)
-                print(temp)
                 round(roots[0],2)
             if (i==2):
                 temp = math.sqrt(discriminant)
@@ -29,13 +23,10 @@ def solve(num):
                 temp = temp / (2*num[0])
                 temp = round(temp,2) 
                 roots[1] = temp
-        
-        return(roots[0])
-
+        return(roots)
 print("Quadratic Solver")
 print("Enter the coefficients for ax^2 + bx + c = 0")
 num[0] = float(input("Enter A: "))
 num[1] = float(input("Enter B: "))
 num[2] = float(input("Enter C: "))
-
-print(solve(num))
+print("Roots:", solve(num))
