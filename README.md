@@ -43,35 +43,27 @@ C is the argument from the earlier print, it has a value of 1-5 at all times. Be
 ### Description
 In this assignment, we used functions with an array as the argument to solve a quadratic, or if no real roots exist, inform the user. 
 ### Code
-I'm going to talk about the two sections that gave me the most trouble. The first is taking the input from a function. 
-`calculator.py`
+`quadratic_solver`
 ```python 
-print("Sum:\t\t" , doMath(a,b,1))
+if (discriminant < 0):   #if the discriminant is <0 it returns no roots
+      return("There are no real roots")
+    else:   #if there are real roots
+        roots[0] = math.sqrt(discriminant)    #solving the quadratic formula
+        roots[0] = (-1*num[1]) - roots[0]     #first root 
+        roots[0] = roots[0] / (2*num[0])  
+        roots[0] = round(roots[0],2)
+        roots[1] = math.sqrt(discriminant)  #second root
+        roots[1] = (-1*num[1]) + roots[1]
+        roots[1] = roots[1] / (2*num[0])  
+        roots[1] = round(roots[1],2)
+        return(roots)       #returns the roots as an array
 ```
-There a few parts to this. First, the print, we are really just telling python to print "Sum" and the return from doMath. The second big part is giving doMath its arguments, in this case, that is `a,b,1` a, and b are variable that are given their value by a user input earlier in the code. 1 is telling doMath what operation to do.  
 
-Next is how I chose what operation to do.
+This is where the (inefficient) magic happens. Outside of this all that happens is taking userinput and printing the result of this section. What I'm doing is just solving the quadratic formula while giving it's value to one of the two roots. After getting both roots it rounds them and then returns the array to be printed. 
 
-`calculator.py`
-
-```python
-  if c==1:       #c tells the function what operation to do
-        return(int(a) + int(b))   #where the math happens
-    elif c==2:
-        return (int(a) - int(b))  #have to make all answers int
-    elif c==3:
-        return (int(a) * int(b))
-    elif c==4:
-        d=float(a) / float(b)    #divide a by b, float is for decimals
-        d=round(d,2)             #rounding the answer to 2 places
-        return (d)
-    elif c==5:
-        return (int(a) % int(b))
- ```
-C is the argument from the earlier print, it has a value of 1-5 at all times. Because of this we can use this simple solution, every value of c has an if/if else statment. The program finds the correct operation, completes it, and then returns it to be printed. 
 ### Lessons(s) Learned
 
-- You can give a function values to work with (called an "argument"). You use `return` to spit back out the answer or whatever, not a `print`.
-- Taking inputs is as easy as `x = input("Message")
-- Rounding is very easy, just use `round(x,y)`, x being the number and y being the places to round to. 
+- Arrays can be useful when dealing with lot's of similar varriables, the individual elements are easy to manipluate and they keep code simple. 
+- One main mistake I made was making the framework and then building the solver, had I done it the other way around my code would have been simpler and more efficient. 
+- You can return and array and then print it along with other things just like a normal variable.  
 
