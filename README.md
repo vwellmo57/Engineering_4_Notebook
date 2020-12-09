@@ -61,7 +61,7 @@ This is where the (inefficient) magic happens. Outside of this all that happens 
 - You can return an array and then print it along with other things just like a normal variable.  
 ## Strings and Loops
 ### Description
-In this assignment, we aked the user for a phrase and then we spit it apart letter by letter and printed it out with a hypen between the words.  
+In this assignment, we asked the user for a phrase and then we spit it apart letter by letter and printed it out with a hyphen between the words.  
 ### Code
 `strings_and_loops.py`
 ```python 
@@ -72,11 +72,11 @@ for x in range(0, len(words)):  #a loop that runs for the length of the string
     print("-")  #prints - in between words
 ```
 
-This is where the (inefficient) magic happens. Outside of this all that happens is taking user-input and printing the result of this section. What I'm doing is just solving the quadratic formula while giving its value to one of the two roots. After getting both roots it rounds them and then returns the array to be printed. 
+This is the entire program; I'm going to go line by line an tak about what's happening. In line one we ask the user for an input phrase, the use the split function which makes it a list superated by the argument giving, in this case ' ', finally we set that to words. The next line is a for loop that runs once for every word in the phrase, this is done by giving it the range 0 to len(words). The next line is very similar, we are just looping through one time for every letter in the current word. One thing to note is the x and y. X is the current word in the list and y is the current letter in the list. Then we print out the letter, words gets two arguments, one is the word(x) and one is the letter(y). The final print statment for the hyphen is only in the first for loop so it only runs after every word, not every letter. 
 
 ### Lessons(s) Learned
 
-- Arrays can be useful when dealing with lots of similar variables, the individual elements are easy to manipulate and they keep code simple. 
-- One main mistake I made was making the framework and then building the solver, had I done it the other way around my code would have been simpler and more efficient. 
-- You can return an array and then print it along with other things just like a normal variable.  
+- You can call and individual letter of a list.  
+- For loops can take lots of arguments. 
+- Python can be very dense if written well or luckily(guess which I am ;). 
 
