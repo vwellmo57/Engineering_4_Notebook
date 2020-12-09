@@ -76,7 +76,7 @@ This is the entire program; I'm going to go line by line an tak about what's hap
 
 ### Lessons(s) Learned
 
-- You can call and individual letter of a list.  
-- For loops can take lots of arguments. 
+- You can call an individual letter of a list.  
+- For loops can take lots of different types of arguments. 
 - Python can be very dense if written well or luckily(guess which I am ;). 
 
