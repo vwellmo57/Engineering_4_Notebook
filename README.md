@@ -66,4 +66,33 @@ This is where the (inefficient) magic happens. Outside of this all that happens 
 - Arrays can be useful when dealing with lots of similar variables, the individual elements are easy to manipulate and they keep code simple. 
 - One main mistake I made was making the framework and then building the solver, had I done it the other way around my code would have been simpler and more efficient. 
 - You can return an array and then print it along with other things just like a normal variable.  
+## Strings and Loops
+### Description
+In this assignment, we aked the user for a phrase and then we spit it apart letter by letter and printed it out with a hypen between the words.  
+### Code
+`quadratic_solver`
+```python 
+if (discriminant < 0):   #if the discriminant is <0 it returns no roots
+      return("There are no real roots")
+    else:   #if there are real roots
+        roots[0] = math.sqrt(discriminant)    #solving the quadratic formula
+        roots[0] = (-1*num[1]) - roots[0]     #first root 
+        roots[0] = roots[0] / (2*num[0])  
+        roots[0] = round(roots[0],2)
+        roots[1] = math.sqrt(discriminant)  #second root
+        roots[1] = (-1*num[1]) + roots[1]
+        roots[1] = roots[1] / (2*num[0])  
+        roots[1] = round(roots[1],2)
+        return(roots)       #returns the roots as an array
+```
+
+This is where the (inefficient) magic happens. Outside of this all that happens is taking user-input and printing the result of this section. What I'm doing is just solving the quadratic formula while giving its value to one of the two roots. After getting both roots it rounds them and then returns the array to be printed. 
+
+### Lessons(s) Learned
+
+- Arrays can be useful when dealing with lots of similar variables, the individual elements are easy to manipulate and they keep code simple. 
+- One main mistake I made was making the framework and then building the solver, had I done it the other way around my code would have been simpler and more efficient. 
+- You can return an array and then print it along with other things just like a normal variable.  
+
+
 
