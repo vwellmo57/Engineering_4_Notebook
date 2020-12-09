@@ -65,18 +65,11 @@ In this assignment, we aked the user for a phrase and then we spit it apart lett
 ### Code
 `strings_and_loops.py`
 ```python 
-if (discriminant < 0):   #if the discriminant is <0 it returns no roots
-      return("There are no real roots")
-    else:   #if there are real roots
-        roots[0] = math.sqrt(discriminant)    #solving the quadratic formula
-        roots[0] = (-1*num[1]) - roots[0]     #first root 
-        roots[0] = roots[0] / (2*num[0])  
-        roots[0] = round(roots[0],2)
-        roots[1] = math.sqrt(discriminant)  #second root
-        roots[1] = (-1*num[1]) + roots[1]
-        roots[1] = roots[1] / (2*num[0])  
-        roots[1] = round(roots[1],2)
-        return(roots)       #returns the roots as an array
+words = input("Enter the sentence: ").split(' ')   #takes the input from the user and puts it in a list with a space in between
+for x in range(0, len(words)):  #a loop that runs for the length of the string
+    for y in range(0,len(words[x])):  #loop that runs for the length 
+        print(words[x][y])  #prints a letter from a part of the loop
+    print("-")  #prints - in between words
 ```
 
 This is where the (inefficient) magic happens. Outside of this all that happens is taking user-input and printing the result of this section. What I'm doing is just solving the quadratic formula while giving its value to one of the two roots. After getting both roots it rounds them and then returns the array to be printed. 
