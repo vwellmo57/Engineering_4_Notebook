@@ -79,4 +79,24 @@ This is the entire program; I'm going to go line by line an tak about what's hap
 - You can call an individual letter of a list.  
 - For loops can take lots of different types of arguments. 
 - Python can be very dense if written well or luckily(guess which I am ;). 
+## Hangman
+### Description
+In this assignment, we made a hangman game, I modified mine to be single player.  
+### Code
+`strings_and_loops.py`
+```python 
+words = input("Enter the sentence: ").split(' ')   #takes the input from the user and puts it in a list with a space in between
+for x in range(0, len(words)):  #a loop that runs for the length of the string
+    for y in range(0,len(words[x])):  #loop that runs for the length 
+        print(words[x][y])  #prints a letter from a part of the loop
+    print("-")  #prints - in between words
+```
+
+This is the entire program; I'm going to go line by line an tak about what's happening. In line one we ask the user for an input phrase, the use the split function which makes it a list superated by the argument giving, in this case ' ', finally we set that to words. The next line is a for loop that runs once for every word in the phrase, this is done by giving it the range 0 to len(words). The next line is very similar, we are just looping through one time for every letter in the current word. One thing to note is the x and y. X is the current word in the list and y is the current letter in the list. Then we print out the letter, words gets two arguments, one is the word(x) and one is the letter(y). The final print statment for the hyphen is only in the first for loop so it only runs after every word, not every letter. 
+
+### Lessons(s) Learned
+
+- You can call an individual letter of a list.  
+- For loops can take lots of different types of arguments. 
+- Python can be very dense if written well or luckily(guess which I am ;). 
 
