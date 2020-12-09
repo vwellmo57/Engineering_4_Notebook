@@ -17,21 +17,15 @@ There a few parts to this. First, the print, we are really just telling python t
 
 Next is how I chose what operation to do.
 
-`calculator.py`
+`strings_and_loops.py`
 
 ```python
-  if c==1:       #c tells the function what operation to do
-        return(int(a) + int(b))   #where the math happens
-    elif c==2:
-        return (int(a) - int(b))  #have to make all answers int
-    elif c==3:
-        return (int(a) * int(b))
-    elif c==4:
-        d=float(a) / float(b)    #divide a by b, float is for decimals
-        d=round(d,2)             #rounding the answer to 2 places
-        return (d)
-    elif c==5:
-        return (int(a) % int(b))
+  words = input("Enter the sentence: ").split(' ')   #takes the input from the user and puts it in a list with a space in between
+  for x in range(0, len(words)):  #a loop that runs for the length of the string
+    for y in range(0,len(words[x])):  #loop that runs for the length 
+        print(words[x][y])  #prints a letter from a part of the loop
+    print("-")  #prints - in between words
+
  ```
 C is the argument from the earlier print, it has a value of 1-5 at all times. Because of this we can use this simple solution, every value of c has an if/if else statment. The program finds the correct operation, completes it, and then returns it to be printed. 
 ### Lessons(s) Learned
