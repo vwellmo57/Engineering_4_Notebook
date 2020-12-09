@@ -63,7 +63,7 @@ This is where the (inefficient) magic happens. Outside of this all that happens 
 ### Description
 In this assignment, we aked the user for a phrase and then we spit it apart letter by letter and printed it out with a hypen between the words.  
 ### Code
-`quadratic_solver`
+`strings_and_loops.py`
 ```python 
 if (discriminant < 0):   #if the discriminant is <0 it returns no roots
       return("There are no real roots")
