@@ -89,7 +89,7 @@ In this assignment, we made a hangman game, I modified mine to be single player.
 
 ### Lessons(s) Learned
 
-- 
-- For loops can take lots of different types of arguments. 
-- Python can be very dense if written well or luckily(guess which I am ;). 
+- Large problems are really just a bunch of small problems. 
+- Just making progress instead of looking at the bigger picture can help you deal with the scale of some problems. 
+- I use to many variables. 
 
