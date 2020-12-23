@@ -98,11 +98,20 @@ In this assignment, we blinked two LEDs ten times.
 ### Code
    `bash`
 ```bash 
-words = input("Enter the sentence: ").split(' ')   #takes the input from the user and puts it in a list with a space in between
-for x in range(0, len(words)):  #a loop that runs for the length of the string
-    for y in range(0,len(words[x])):  #loop that runs for the length 
-        print(words[x][y])  #prints a letter from a part of the loop
-    print("-")  #prints - in between words
+echo "Hello, World!" #print Hello, World!
+gpio mode 0 out #setting the output pins
+gpio mode 2 out
+
+for (( x=0; x<=9; x++ ))  #loop that runs twice
+  do  
+  gpio write 0 1  #turn the leds on
+  gpio write 2 1
+  sleep 1         #wait one second
+  gpio write 0 0  #turn them off
+  gpio write 2 0
+  sleep 1         #wait one second
+
+done              #code finishes
 ```
 
 ### Lessons(s) Learned
