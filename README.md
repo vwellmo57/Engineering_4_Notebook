@@ -113,9 +113,10 @@ for (( x=0; x<=9; x++ ))  #loop that runs twice
 
 done              #code finishes
 ```
+The code is fairly simple, I just printed "Hello, World!" and then blinked the leds on and off ten times.  
 
 ### Lessons(s) Learned
 
-- Large problems are really just a bunch of small problems. 
-- Just making progress instead of looking at the bigger picture can help you deal with the scale of some problems. 
-- I use to many variables. 
+- You should probably read linked pages
+- Instead of trying to figure out what pins are associated to the number in the code, just hook up and led to ground and tap each pin to find which one works. 
+- Bash scripts aren't that involved
