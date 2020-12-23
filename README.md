@@ -83,6 +83,24 @@ This is the entire program; I'm going to go line by line an tak about what's hap
 ### Description
 In this assignment, we made a hangman game, I modified mine to be single player.  
 ### Code
+  `bash`
+```bash 
+words = input("Enter the sentence: ").split(' ')   #takes the input from the user and puts it in a list with a space in between
+for x in range(0, len(words)):  #a loop that runs for the length of the string
+    for y in range(0,len(words[x])):  #loop that runs for the length 
+        print(words[x][y])  #prints a letter from a part of the loop
+    print("-")  #prints - in between words
+```
+
+### Lessons(s) Learned
+
+- Large problems are really just a bunch of small problems. 
+- Just making progress instead of looking at the bigger picture can help you deal with the scale of some problems. 
+- I use to many variables. 
+## GPIO #1
+### Description
+In this assignment, we blinked two LEDs ten times.   
+### Code
   Instead of chosing an individual segment of code I'm going to just talk about the differents parts as no part of the program is super complex. The section of the code is for defining variables and choosing the word. To choose the word the program picks a random word from the list and makes it it's own variable. In this section we also set the amount of lives. 
   The next section is the hangman function, this just takes an argument and then prints the correct hangman position. 
   The final section is the main functionality. A few things happen here, first we take a user guess. Then we check to see if they got it right, if the did we replace the underscore in the answer with the correct letter. IF they got it wrong they loose a life. Regardless of what happens we print the appropirate hangman position. Finally, after the user wins or loses, we tell them and end the program. 
@@ -92,4 +110,3 @@ In this assignment, we made a hangman game, I modified mine to be single player.
 - Large problems are really just a bunch of small problems. 
 - Just making progress instead of looking at the bigger picture can help you deal with the scale of some problems. 
 - I use to many variables. 
-
