@@ -136,7 +136,7 @@ I just wrote a for loop that repeats 10 times. I found the code for the LEDS [he
 
 ### Lessons(s) Learned
 
-- You should probably read linked pages
-- Instead of trying to figure out what pins are associated to the number in the code, just hook up and led to ground and tap each pin to find which one works. 
-- Bash scripts aren't that involved
+- Sometimes you can just google the problem and get lucky!
+- Past notebooks can come in handy! 
+- Using the transmit/recive pins to blink an LED works but also seems to disconnect me...
 
