@@ -132,7 +132,7 @@ for x in range(10):   #loop runs 10 times
  GPIO.output(8, GPIO.LOW) # Turn off
  sleep(1) # Sleep for 1 second
 ```
-The code is fairly simple, I just printed "Hello, World!" and then blinked the leds on and off ten times.  
+I just wrote a for loop that repeats 10 times. I found the code for the LEDS [here] (https://raspberrypihq.com/making-a-led-blink-using-the-raspberry-pi-and-python/).  
 
 ### Lessons(s) Learned
 
