@@ -120,3 +120,23 @@ The code is fairly simple, I just printed "Hello, World!" and then blinked the l
 - You should probably read linked pages
 - Instead of trying to figure out what pins are associated to the number in the code, just hook up and led to ground and tap each pin to find which one works. 
 - Bash scripts aren't that involved
+## Python Pins
+### Description
+In this assignment, we blinked an LED using Python.   
+### Code
+   `python`
+```python_pins.py
+for x in range(10):   #loop runs 10 times
+ GPIO.output(8, GPIO.HIGH) # Turn on
+ sleep(1) # Sleep for 1 second
+ GPIO.output(8, GPIO.LOW) # Turn off
+ sleep(1) # Sleep for 1 second
+```
+The code is fairly simple, I just printed "Hello, World!" and then blinked the leds on and off ten times.  
+
+### Lessons(s) Learned
+
+- You should probably read linked pages
+- Instead of trying to figure out what pins are associated to the number in the code, just hook up and led to ground and tap each pin to find which one works. 
+- Bash scripts aren't that involved
+
