@@ -140,3 +140,9 @@ I just wrote a for loop that repeats 10 times. I found the code for the LEDS [he
 - Past notebooks can come in handy! 
 - Using the transmit/recive pins to blink an LED works but also seems to disconnect me...
 
+## SSH
+### Description
+In this assignment, we connected to our pi via SSH and turned on an LED. 
+### How
+I followed Shields' tutorial until it cam time to connect to the pi. I tried his chromebook method but didn't have any luck so I used an app on my android called "JuiceSSH - SSH Client". I'm not sure if it's the best but it worked first try. To connect I entered "pi@192.168.43.31:22" pi was my username, 192... was my ip, and 22 was my port (default). To get power to the pi I connected the battery to the boost thing and then used the usb port on the boost and the micro usb on the pi to get power. I also used pin 17 as my led pin. 
+
