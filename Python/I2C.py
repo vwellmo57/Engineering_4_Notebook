@@ -30,10 +30,10 @@ font = ImageFont.load_default()
 
 #Everything above this was in the examples
 
-while True:
+while True:   #runs the whole time
 	accel, mag = accelerometer.read() # gets accelerometer data
 	accel_x, accel_y, accel_z = accel #sets the acceleration values
-	mag_x, mag_y, mag_z = mag #although I don't use this, the .read() taken 6 points of data, so you need to give places for all 6 data points
+	#mag_x, mag_y, mag_z = mag #I dont print these values but good to have
 	
 	#prepares the drawing on the screen
 	#(0,0) is the top left. Increasing each number goes right/down
