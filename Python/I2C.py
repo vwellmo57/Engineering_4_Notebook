@@ -6,7 +6,7 @@ from PIL import Image
 from PIL import ImageDraw
 from PIL import ImageFont
 
-RST = 24
+RST = 24  #RST Pin
 accelerometer = Adafruit_LSM303.LSM303() # accelerometer setup
 disp = Adafruit_SSD1306.SSD1306_128_64(rst=RST, i2c_address=0x3d) # dislay setup
 disp.begin()
@@ -20,7 +20,7 @@ image = Image.new('1', (width, height))
 draw = ImageDraw.Draw(image) # gets drwaing object to draw on image
 draw.rectangle((0,0,width,height), outline=0, fill=0) # clears screen
 
-# variables to help drawing
+#variables for drawing
 padding = 2
 shape_width = 20
 top = padding
