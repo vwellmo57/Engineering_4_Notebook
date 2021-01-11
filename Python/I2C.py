@@ -26,11 +26,9 @@ shape_width = 20
 top = padding
 bottom = height - padding
 x = padding
-font = ImageFont.load_default()
+font = ImageFont.load_default() 
 
-#------------------------------ 
-#everything above this line can be taken from the two examples
-#the examples are linked on my Engineering Notebook 
+#Everything above this was in the examples
 
 while True:
 	accel, mag = accelerometer.read() # gets accelerometer data
