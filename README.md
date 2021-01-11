@@ -149,4 +149,11 @@ I followed Shields' tutorial until it cam time to connect to the pi. I tried his
 - Connecting via SSH is simple (not always easy).
 - The pi's ip seems to be static or at least does not change every reboot. 
 - I really don't want to be a network engineer. 
-
+## I2C
+### Description
+In this assignment, we printed accelerometer data on a display. 
+### How
+I primarily used the tutorial Shields had on the page, it was very good and got me 90% of the way to working hardware. I had one issue that gave me lots of grief. I'm not sure what cause it but I could never get shapes.py to run without errors, I think I uncommented/left something commented that I should not have but it would never run. Eventually I used Gram Lenard's code and it worked first try. I belive this is because his code was slimmed down and only had what we needed for our rig. Regadless there would have been a lot more head scratching if he hadn't posted his code. 
+### Lessons(s) Learned
+- The Pi can throw errors if wiring is wrong so checking wiring is something I have to do now even with code errors. 
+- These displays seems to be tricky regardless of language or other hardware. 
