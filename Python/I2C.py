@@ -39,9 +39,9 @@ while True:
 	#(0,0) is the top left. Increasing each number goes right/down
 	#using .format (from the examples), and divided the value by 100, then rounded to 3 places
 	draw.text((x, top), "Accelerometer Data:", font=font, fill=255) # draws header
-	draw.text((x, top + 10), "X ={0}".format(round(accel_x / 100, 3)), font=font, fill=255) # draws x 
-	draw.text((x, top + 20), "Y ={0}".format(round(accel_y / 100, 3)), font=font, fill=255) # draws y
-	draw.text((x, top + 30), "Z ={0}".format(round(accel_z / 100, 3)), font=font, fill=255) # draws z
+	draw.text((x, top + 10), "Accel x ={0}".format(round(accel_x / 100, 3)), font=font, fill=255) # draws x 
+	draw.text((x, top + 20), "Accel y ={0}".format(round(accel_y / 100, 3)), font=font, fill=255) # draws y
+	draw.text((x, top + 30), "Accel z ={0}".format(round(accel_z / 100, 3)), font=font, fill=255) # draws z
 
 	#actually writes to the display
 	disp.image(image) # displays x, y, z, and header
