@@ -157,3 +157,12 @@ I primarily used the tutorial Shields had on the page, it was very good and got 
 ### Lessons(s) Learned
 - The Pi can throw errors if wiring is wrong so checking wiring is something I have to do now even with code errors. 
 - These displays seems to be tricky regardless of language or other hardware. 
+
+## Hello Flask
+### Description
+In this assignment, we turned the pi into a web-server. 
+### How
+This assignment was suprisingly smooth, I followed the tutorial and everything worked. MY largest takeaway is that I have to be on the same network as my pi for it to work, that means I had to connect to my phone hotspot to get acess to the webpage. 
+### Lessons(s) Learned
+- Follow the tutorial as long as it works.
+- You have to be on the same network to connect to the pi. 
