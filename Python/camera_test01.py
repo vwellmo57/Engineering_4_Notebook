@@ -1,7 +1,7 @@
 import time
 import picamera
 
-print("running! :)")
+print("running!")
 
 with picamera.PiCamera() as camera:
     camera.resolution = (1024, 768)
@@ -9,3 +9,5 @@ with picamera.PiCamera() as camera:
     # Camera warm-up time
     time.sleep(2)
     camera.capture('test1.jpg')
+
+print("done!")
