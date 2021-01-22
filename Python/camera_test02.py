@@ -5,7 +5,7 @@ print("running pic 1")
 
 with picamera.PiCamera() as camera:
     camera.resolution = (1024, 768)
-    camera.image_effect = 'colorswap'   
+    camera.image_effect = 'colorswap' #this is where you put the code for the effect   
     camera.start_preview()
     # Camera warm-up time
     time.sleep(2)
