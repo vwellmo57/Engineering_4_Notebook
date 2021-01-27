@@ -166,3 +166,21 @@ This assignment was suprisingly smooth, I followed the tutorial and everything w
 ### Lessons(s) Learned
 - Follow the tutorial as long as it works.
 - You have to be on the same network to connect to the pi. 
+
+## Pi Camera
+### Description 
+In this assignment we usedthe pi camera to take pictures with effects. 
+### How
+I followed the docs and everything went well. One thing to note is that the gold contacts face down on the pi and up twoards the camera on the camera. 
+### Code
+ `python`
+```camera_test02.py
+with picamera.PiCamera() as camera:
+    camera.resolution = (1024, 768)
+    camera.image_effect = 'colorswap' #this is where you put the code for the effect   
+    camera.start_preview()
+    # Camera warm-up time
+    time.sleep(2)
+    camera.capture('test1.jpg')
+
+```
