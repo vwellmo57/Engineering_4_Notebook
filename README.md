@@ -184,3 +184,4 @@ with picamera.PiCamera() as camera:
     camera.capture('test1.jpg')
 
 ```
+The only thing I'd like to point out with to code is where you put the image effect function thing. I put it after the resolution but before the preview and it worked fine. There is a list of the effects in the doc. 
