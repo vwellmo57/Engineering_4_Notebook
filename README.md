@@ -185,3 +185,6 @@ with picamera.PiCamera() as camera:
 
 ```
 The only thing I'd like to point out with the code is where you put the image effect function thing. I put it after the resolution but before the preview and it worked fine. There is a list of the effects in the doc. 
+### Lessons(s) Learned
+- Follow the docs, they get you like 90% of the way there
+- Use "git add ." to add multiple files
