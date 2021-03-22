@@ -28,7 +28,10 @@ def index():
             sleep(1) 
             SetAngle(90)
             sleep(1) 
-            SetAngle(0) 
+            SetAngle(0)
+	else:
+            # pass # unknown
+            return render_template("index.html") 
 
 pwm.stop()
 GPIO.cleanup()
