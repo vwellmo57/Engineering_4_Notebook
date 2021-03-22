@@ -7,10 +7,6 @@ GPIO.setup(11, GPIO.OUT)
 pwm=GPIO.PWM(11, 50)
 pwm.start(0)
 
-GPIO.setwarnings(False)
-GPIO.setmode(GPIO.BCM)
-GPIO.setup(17,GPIO.OUT)
-GPIO.setup(12,GPIO.OUT)
 
 app = Flask(__name__)
 def SetAngle(angle):
