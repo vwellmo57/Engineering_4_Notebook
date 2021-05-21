@@ -188,3 +188,11 @@ The only thing I'd like to point out with the code is where you put the image ef
 ### Lessons(s) Learned
 - Follow the docs, they get you like 90% of the way there
 - Use "git add ." to add multiple files
+## Headless
+### Description 
+In this assignment we graphed acceleration data on the screen and and then sshd in. 
+### How
+I had SSH figured out so it wasn't a big deal. 
+### Lessons(s) Learned
+- Follow the docs, they get you like 90% of the way there
+- The top left of the screen is (0,0)
