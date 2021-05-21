@@ -196,3 +196,11 @@ I had SSH figured out so it wasn't a big deal.
 ### Lessons(s) Learned
 - Follow the docs, they get you like 90% of the way there
 - The top left of the screen is (0,0)
+## GPIO Flask
+### Description 
+In this assignment we used a web server to control LEDs. 
+### How
+Philip helped me set up the web server for our project so whereas I never actually got the leds working I did use a servo which I think counts. 
+### Lessons(s) Learned
+- You can use discord image links instead of file paths for images. 
+- Spacing is really important in Python. 
