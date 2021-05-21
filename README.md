@@ -205,4 +205,6 @@ Philip helped me set up the web server for our project so whereas I never actual
 - You can use discord image links instead of file paths for images. 
 - Spacing is really important in Python. 
 ## CopyPasta 1 & 2
-### Description 
+### CopyPasta 1
+#### Description 
+In this assignment we used a motion sensor to detect motion and then take a picture. 
