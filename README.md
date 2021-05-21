@@ -204,3 +204,5 @@ Philip helped me set up the web server for our project so whereas I never actual
 ### Lessons(s) Learned
 - You can use discord image links instead of file paths for images. 
 - Spacing is really important in Python. 
+## CopyPasta 1 & 2
+### Description 
