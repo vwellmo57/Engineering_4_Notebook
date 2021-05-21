@@ -208,3 +208,16 @@ Philip helped me set up the web server for our project so whereas I never actual
 ### CopyPasta 1
 #### Description 
 In this assignment we used a motion sensor to detect motion and then take a picture. 
+#### How
+The code was rather simple and the camera wiring was done so all I had to do was hookup the sensor. 
+#### Lessons(s) Learned
+- The pir.wait_for_motion() function makes everything pretty easy. 
+- You can use the date time function to have an easy filenaming system 
+### CopyPasta 2
+#### Description 
+In this assignment we used the stop motion function to make a stop motion video.  
+#### How
+The code was rather simple, I used a try loop to catch exeptions so the program didn't crash. 
+#### Lessons(s) Learned
+- You can use a try loop if you think a section of code will throw exeptions. 
+- You should have an easy way to exit your loop with keyborad input. 
